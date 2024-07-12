@@ -31,7 +31,7 @@ var setup = function() {
     canvas.onmousemove = getMousePosition;
 
     // Aggiungi 18 palline iniziali
-    for (var i = 0; i < 18; i++) {
+    for (var i = 0; i < 12; i++) {
         var color = colors[i % colors.length];
         var x = Math.random() * canvas.width;
         var y = Math.random() * canvas.height;
