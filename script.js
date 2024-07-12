@@ -1,15 +1,15 @@
 const imageDisplay = document.getElementById('imageDisplay');
     const images = [      
-        "https://i.postimg.cc/x8PF9WHK/1-Eden-BG.png",
-        "https://i.postimg.cc/mDC55cgp/2-Miele-BG.png",
-        "https://i.postimg.cc/zvNcZJLz/3-GEOX-BG.png",
-        "https://i.postimg.cc/8kdYdr3j/4-Reply-BG.png",
-        "https://i.postimg.cc/fTwr8Rn5/5-Miele-BG.png",
-        "https://i.postimg.cc/Qx0nwZjD/6-Frau-BG.png",
-        "https://i.postimg.cc/L850MQs1/7-Stellantis-BG.png",
-        "https://i.postimg.cc/q7CbNtyB/8-REPLY-BG.png",
-        "https://i.postimg.cc/9QkgXP4N/9-Marelli-BG.png",
-        "https://i.postimg.cc/j508Ps4H/10-Turisanda-BG.png"
+      "https://i.postimg.cc/fyt13LN7/1-Eden.png",
+      "https://i.postimg.cc/J0fvjLrf/2-Miele.png",
+      "https://i.postimg.cc/FRn2sS2s/3-GEOX.png",
+      "https://i.postimg.cc/xCdw25p4/4-REPLY.png",
+      "https://i.postimg.cc/kgmXmrQY/5-Miele.png",
+      "https://i.postimg.cc/h4XG814s/6-Frau.png",
+      "https://i.postimg.cc/tCPCwRxV/7-Stellantis.png",
+      "https://i.postimg.cc/KcC803R2/8-REPLY.png",
+      "https://i.postimg.cc/Z5xYYfjb/9-Marelli.png",
+      "https://i.postimg.cc/hG4DX939/10-Turisanda.png"
     ];
 
      const swiper = new Swiper('.swiper-container', {
