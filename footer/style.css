@@ -1,0 +1,27 @@
+@import url("https://fonts.cdnfonts.com/css/pp-neue-montreal");
+
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent default scrolling */
+  font-family: "PP Neue Montreal", sans-serif;
+  font-weight: 500;
+}
+#canvas-container {
+            position: relative;
+          overflow: hidden;
+        }
+        #canvas {
+            display: block;
+        }
+        #message {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: black;
+        }
