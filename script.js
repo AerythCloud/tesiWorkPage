@@ -1,6 +1,6 @@
 const imageDisplay = document.getElementById('imageDisplay');
     const images = [      
-      "https://i.postimg.cc/fyt13LN7/1-Eden.png",
+      "./img/Foto/1-Eden.png",
       "https://i.postimg.cc/J0fvjLrf/2-Miele.png",
       "https://i.postimg.cc/FRn2sS2s/3-GEOX.png",
       "https://i.postimg.cc/xCdw25p4/4-REPLY.png",
