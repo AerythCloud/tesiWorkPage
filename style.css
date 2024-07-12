@@ -1,0 +1,143 @@
+@import url("https://fonts.cdnfonts.com/css/pp-neue-montreal");
+
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #111b0c;
+  overflow: hidden; /* Prevent default scrolling */
+  font-family: "PP Neue Montreal", sans-serif;
+}
+.image-display {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background-image: url('https://i.postimg.cc/DzGgbXJw/0-Le-Palle-piu-la-palla.png');
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  
+}
+.image-display img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.swiper-container {
+  height: 100vh;
+  width: 477px;
+  transition: all 1s ease-out;
+}
+
+.swiper-wrapper {
+    gap: 10px;
+  
+}
+
+.swiper-inside {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 95%;
+    z-index: 3;
+    position: absolute;
+
+}
+
+.swiper-title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #fff;
+}
+
+.swiper-subhead {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  width: 477px;
+  max-height: 236px;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  border-radius: 10px;
+  transition: all .4s ease-in-out;
+    overflow: hidden;
+
+
+}
+
+.swiper-slide-active {
+  transform: translateX(-40px); /* Slightly shift active slide to the left */
+  transition: all .4s ease-in-out;
+}
+
+.swiper-slide.slide-one {
+  background-image: url('https://i.postimg.cc/8c2QwDCd/1-Eden-BG.png')
+}
+
+.swiper-slide.slide-two {
+  background-image: url('https://i.postimg.cc/3RbH425c/2-Miele-BG.png')
+}
+
+.swiper-slide.slide-three {
+  background-image: url('https://i.postimg.cc/k45mgfZS/3-GEOX-BG.png')
+}
+
+.swiper-slide.slide-four {
+  background-image: url('https://i.postimg.cc/ncmtrsd3/4-Reply-BG.png')
+}
+
+.swiper-slide.slide-five {
+  background-image: url('https://i.postimg.cc/SQ3hmLGX/5-Miele-BG.png')
+}
+
+.swiper-slide.slide-six {
+  background-image: url('https://i.postimg.cc/3N4QgW3J/6-Frau-BG.png')
+}
+
+.swiper-slide.slide-seven {
+  background-image: url('https://i.postimg.cc/L8BKkcFf/7-Stellantis-BG.png')
+}
+
+.swiper-slide.slide-eight {
+  background-image: url('https://i.postimg.cc/hGDF22KY/8-REPLY-BG.png')
+}
+
+.swiper-slide.slide-nine {
+  background-image: url('https://i.postimg.cc/3xHQvKVY/9-Marelli-BG.png')
+}
+
+.swiper-slide.slide-ten {
+  background-image: url('https://i.postimg.cc/43BDqpdx/10-Turisanda-BG.png')
+}
+
+.overlay{
+background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 60%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#281a36",endColorstr="#593b74",GradientType=1);s
+  display: block;
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+  z-index: 0;
+}
